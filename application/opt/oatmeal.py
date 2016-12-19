@@ -14,12 +14,7 @@ dinner = 'dinner'
 snack = 'snack'
 
 global oat_data
-oat_data = {}
-oat_data['recipes'] = []
-oat_data['target'] = []
-oat_data['priorities'] = [6, 1, 1, 1]
-oat_data['population'] = 150
-oat_data['ngen'] = 30
+oat_data = {'recipes': [], 'target': [], 'priorities': [6, 1, 1, 1], 'population': 150, 'ngen': 30}
 toolbox = base.Toolbox()
 servings = [0.125, 0.25, 0.5, 1, 2]
 

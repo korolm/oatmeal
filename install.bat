@@ -1,0 +1,1 @@
+pip install unirest pymongo deap flask Flask-PyMongo cProfile
